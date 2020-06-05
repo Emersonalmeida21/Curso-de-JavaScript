@@ -23,10 +23,10 @@
             
               /*Vai perguntar um nome*/
             
-               var  n1 = window.prompt('Digite um numero:')
-               var  n2 = window.prompt('Digite outro numero:')  
+               var  n1 =Number.parseInt(window.prompt('Digite um numero:')) /*recebe como string*/
+               var  n2 = Number.parseInt(window.prompt('Digite outro numero:'))/*recebe como string*/ 
                var s = n1 + n2
-               window.alert('A soma dos valores é ' + s)      
+               window.alert('A soma dos valores é ' + s)    /* o + pode ser para adição ou para concatenação */  
               </script>
            </body>
   
